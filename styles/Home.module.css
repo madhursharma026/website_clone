@@ -1,0 +1,58 @@
+.maxWidth {
+    width: 500px;
+}
+
+@media (max-width: 1199px) {
+    .textSize {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .textSize {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .leftSideImage {
+        text-align: left;
+    }
+    .FooterBeforeMDScrn{
+        display: none;
+    }
+    .FooterAfterMDScrn{
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .textSize {
+        font-size: 23px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 768px) {
+    .leftSideImage {
+        text-align: right;
+    }
+
+    .RightSideText {
+        width: 300px;
+    }
+
+    .borderRight {
+        border-right: 2px solid black;
+    }
+    .FooterAfterMDScrn{
+        display: none;
+    }
+}
+
+@media (min-width: 1300px) {
+    .paddingLeft {
+        padding-left: 300px;
+    }
+}
+
