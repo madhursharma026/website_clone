@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <div className={`container-xxl px-sm-0 px-5`}>
         <div className="row my-sm-5 px-xxl-0 px-sm-2">
-          <div className="col-sm-6 order-sm-2">
+          <div className="col-sm-6 order-sm-2 text-center">
             <img style={{ width: '80%' }} src="https://d9hhrg4mnvzow.cloudfront.net/get.manta.com/free-consultation-clutch/f429e34d-consultation-header-image_10jz0dc0e60ce02k00h028.png" alt="#ImgNotFound" />
           </div>
           <div className="col-sm-6 mt-md-5">
@@ -163,9 +163,9 @@ export default function Home() {
       </div>
 
       <div className="container-xxl">
-        <div className="row">
+        <div className="row py-5">
           <div className={`col-md-6 ${styles.leftSideImage}`}>
-            <img src="https://d9hhrg4mnvzow.cloudfront.net/get.manta.com/free-consultation-clutch/8ab85606-phone_10bs0br09108r00f01m028.png" alt="#ImgNotFound" />
+            <img src="https://www.constantcontact.com/blog/wp-content/uploads/2021/03/img_60510903448b6.png" alt="#ImgNotFound" width='300px' height='270px' />
           </div>
           <div className={`col-md-6 mt-5 ${styles.RightSideText}`}>
             <h1 style={{ color: "#FF6B61" }}>Be found first</h1>
